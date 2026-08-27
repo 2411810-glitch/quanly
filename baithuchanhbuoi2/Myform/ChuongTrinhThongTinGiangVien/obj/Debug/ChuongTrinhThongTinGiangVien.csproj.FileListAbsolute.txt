@@ -1,0 +1,11 @@
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe.config
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.pdb
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.AssemblyReference.cache
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmGiangVien.resources
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTBGiangVien.resources
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.Properties.Resources.resources
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.GenerateResource.cache
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.CoreCompileInputs.cache
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.exe
+D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.pdb
