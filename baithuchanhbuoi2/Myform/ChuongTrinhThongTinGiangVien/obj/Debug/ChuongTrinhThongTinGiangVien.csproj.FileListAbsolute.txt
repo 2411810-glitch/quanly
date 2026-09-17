@@ -9,3 +9,16 @@ D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGian
 D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.CoreCompileInputs.cache
 D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.exe
 D:\2411810\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.pdb
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.AssemblyReference.cache
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.SuggestedBindingRedirects.cache
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.exe
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.pdb
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe.config
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.pdb
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmGiangVien.resources
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTBGiangVien.resources
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.Properties.Resources.resources
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.GenerateResource.cache
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.CoreCompileInputs.cache
+Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTim.resources

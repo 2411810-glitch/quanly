@@ -17,8 +17,8 @@ namespace ChuongTrinhThongTinGiangVien
         {
             InitializeComponent();
         }
-       
 
+        QuanLyGiangVien dsGiangVien = new QuanLyGiangVien();
         private void frmGiangVien_Load(object sender, EventArgs e)
         {
             string lienHe = "https://cntt.dlu.edu.vn/";
@@ -105,6 +105,28 @@ namespace ChuongTrinhThongTinGiangVien
         private void btnexit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            /*bool gt = true;
+            if (rdNu.Checked)
+                gt = false;
+            string[] ngoai;
+            for (int i = 0; i < chkNgoaiNgu.Items.Count - 1; i++)
+            {
+
+            }
+            GiangVien a= new GiangVien(cboMaSo.Text, txtHoTen.Text, dtpNgaySinh.Value, lbHocPhanDay.Select(), gt, "", mtxtDT.Text, txtMail.Text);
+            dsGiangVien.Them(a);
+            if (dsGiangVien.Them(a))
+                MessageBox.Show("ma giang vien da ton tai");*/
+        }
+
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+            frmTim frm= new frmTim();
+            frm.ShowDialog();
         }
     }
 }

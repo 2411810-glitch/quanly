@@ -55,6 +55,8 @@
             this.linklbLienHe = new System.Windows.Forms.LinkLabel();
             this.rdNam = new System.Windows.Forms.RadioButton();
             this.rdNu = new System.Windows.Forms.RadioButton();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnTim = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblThongBao
@@ -316,11 +318,33 @@
             this.rdNu.Text = "Nu";
             this.rdNu.UseVisualStyleBackColor = true;
             // 
+            // btnThem
+            // 
+            this.btnThem.Location = new System.Drawing.Point(514, 438);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(78, 37);
+            this.btnThem.TabIndex = 12;
+            this.btnThem.Text = "Them";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // btnTim
+            // 
+            this.btnTim.Location = new System.Drawing.Point(333, 178);
+            this.btnTim.Name = "btnTim";
+            this.btnTim.Size = new System.Drawing.Size(75, 23);
+            this.btnTim.TabIndex = 13;
+            this.btnTim.Text = "Tim";
+            this.btnTim.UseVisualStyleBackColor = true;
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
+            // 
             // frmGiangVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 509);
+            this.Controls.Add(this.btnTim);
+            this.Controls.Add(this.btnThem);
             this.Controls.Add(this.rdNu);
             this.Controls.Add(this.rdNam);
             this.Controls.Add(this.linklbLienHe);
@@ -383,6 +407,8 @@
         private System.Windows.Forms.LinkLabel linklbLienHe;
         private System.Windows.Forms.RadioButton rdNam;
         private System.Windows.Forms.RadioButton rdNu;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnTim;
     }
 }
 
