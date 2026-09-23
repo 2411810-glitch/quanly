@@ -22,3 +22,15 @@ Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\
 Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.GenerateResource.cache
 Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.CoreCompileInputs.cache
 Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTim.resources
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe.config
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.pdb
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.AssemblyReference.cache
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmGiangVien.resources
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTBGiangVien.resources
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTim.resources
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.Properties.Resources.resources
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.GenerateResource.cache
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.CoreCompileInputs.cache
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.exe
+F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.pdb

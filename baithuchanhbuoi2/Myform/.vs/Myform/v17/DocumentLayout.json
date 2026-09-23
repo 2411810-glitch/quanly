@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\frmgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\frmgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\frmtim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\frmtim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\quanlygiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\quanlygiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\frmtim.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\frmtim.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\frmtim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\frmtim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\frmtbgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\frmtbgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\frmgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\frmgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\frmtbgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\frmtbgiangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|f:\\desktop\\quanly\\baithuchanhbuoi2\\myform\\chuongtrinhthongtingiangvien\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F60BC2-BE8B-4B8B-92A0-F809A8F06AA3}|ChuongTrinhThongTinGiangVien\\ChuongTrinhThongTinGiangVien.csproj|solutionrelative:chuongtrinhthongtingiangvien\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmTim.Designer.cs",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTim.Designer.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\frmTim.Designer.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTim.Designer.cs",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\frmTim.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T06:56:23.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTim.cs",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTim.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\frmTim.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTim.cs",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\frmTim.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADgv0kAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:15:41.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmTim.cs [Design]",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTim.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\frmTim.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTim.cs [Design]",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\frmTim.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:55:40.779Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGiangVien.cs",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmGiangVien.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\frmGiangVien.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmGiangVien.cs",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\frmGiangVien.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:57:32.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmTBGiangVien.cs",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T06:40:34.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanLyGiangVien.cs",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\QuanLyGiangVien.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\QuanLyGiangVien.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\QuanLyGiangVien.cs",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\QuanLyGiangVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:10:02.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmTBGiangVien.cs [Design]",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs [Design]",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\frmTBGiangVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:55:42.707Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmGiangVien.cs [Design]",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmGiangVien.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\frmGiangVien.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\frmGiangVien.cs [Design]",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\frmGiangVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:55:44.737Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GiangVien.cs",
+              "DocumentMoniker": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\GiangVien.cs",
+              "RelativeDocumentMoniker": "ChuongTrinhThongTinGiangVien\\GiangVien.cs",
+              "ToolTip": "F:\\desktop\\quanly\\baithuchanhbuoi2\\Myform\\ChuongTrinhThongTinGiangVien\\GiangVien.cs",
+              "RelativeToolTip": "ChuongTrinhThongTinGiangVien\\GiangVien.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T05:20:03.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

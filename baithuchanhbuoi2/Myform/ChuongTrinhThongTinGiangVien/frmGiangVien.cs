@@ -18,7 +18,7 @@ namespace ChuongTrinhThongTinGiangVien
             InitializeComponent();
         }
 
-        QuanLyGiangVien dsGiangVien = new QuanLyGiangVien();
+		QuanLyGiangVien dsGiangVien;
         private void frmGiangVien_Load(object sender, EventArgs e)
         {
             string lienHe = "https://cntt.dlu.edu.vn/";
@@ -75,8 +75,10 @@ namespace ChuongTrinhThongTinGiangVien
         public GiangVien GetGiangVien()
         {
             string gt = "Nam";
-            if (rdNu.Checked)
-                gt = "Nu";
+			if(rdNu.Checked)
+				gt = "Nu";
+			else
+				gt = "Nam";
             GiangVien gv = new GiangVien();
             gv.MaSo=this.cboMaSo.Text;
             gv.GioiTinh = gt;
@@ -109,23 +111,16 @@ namespace ChuongTrinhThongTinGiangVien
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            /*bool gt = true;
-            if (rdNu.Checked)
-                gt = false;
-            string[] ngoai;
-            for (int i = 0; i < chkNgoaiNgu.Items.Count - 1; i++)
-            {
+			GiangVien gv = this.GetGiangVien( );
+			if(dsGiangVien.Them( gv ))
+				MessageBox.Show( "Them giang vien thanh cong" );
+			else
+				MessageBox.Show("Ma giang vien da ton tai","Thong bao",MessageBoxButtons.OK, MessageBoxIcon.Error );
 
-            }
-            GiangVien a= new GiangVien(cboMaSo.Text, txtHoTen.Text, dtpNgaySinh.Value, lbHocPhanDay.Select(), gt, "", mtxtDT.Text, txtMail.Text);
-            dsGiangVien.Them(a);
-            if (dsGiangVien.Them(a))
-                MessageBox.Show("ma giang vien da ton tai");*/
         }
-
         private void btnTim_Click(object sender, EventArgs e)
         {
-            frmTim frm= new frmTim();
+            frmTim frm= new frmTim(dsGiangVien);
             frm.ShowDialog();
         }
     }

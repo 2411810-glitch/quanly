@@ -12,9 +12,15 @@ namespace ChuongTrinhThongTinGiangVien
 {
     public partial class frmTBGiangVien : Form
     {
+		GiangVien gv;
         public frmTBGiangVien()
         {
             InitializeComponent();
+        }
+		public frmTBGiangVien(GiangVien gv)
+        {
+            InitializeComponent();
+			this.gv = gv;
         }
         public void SetText(string s)
         {

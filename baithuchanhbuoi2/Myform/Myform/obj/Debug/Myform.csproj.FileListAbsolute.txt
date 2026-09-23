@@ -19,3 +19,13 @@ Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.csproj.Ge
 Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.csproj.CoreCompileInputs.cache
 Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.exe
 Z:\2411810\quanly-main\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.pdb
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\bin\Debug\Myform.exe.config
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\bin\Debug\Myform.exe
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\bin\Debug\Myform.pdb
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.csproj.AssemblyReference.cache
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.frmTrungTam.resources
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.Properties.Resources.resources
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.csproj.GenerateResource.cache
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.csproj.CoreCompileInputs.cache
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.exe
+F:\desktop\quanly\baithuchanhbuoi2\Myform\Myform\obj\Debug\Myform.pdb

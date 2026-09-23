@@ -7,7 +7,7 @@ using System.Windows.Forms.VisualStyles;
 
 namespace ChuongTrinhThongTinGiangVien
 {
-    internal class QuanLyGiangVien
+    public class QuanLyGiangVien
     {
         List<GiangVien> dsGiangVien;
         public QuanLyGiangVien()
@@ -30,12 +30,13 @@ namespace ChuongTrinhThongTinGiangVien
         public void SapXep(SoSanh ss,object a)
         {
             if(ss(KieuTm.TheoMa,a)==1)
-                dsGiangVien.OrderBy(x => x.MaSo);
+                dsGiangVien= dsGiangVien.OrderBy(x => x.MaSo).ToList();
             if(ss(KieuTm.TheoHoTen,a)==1)
-                dsGiangVien.OrderBy(x => x.HoTen);
+                dsGiangVien= dsGiangVien.OrderBy(x => x.HoTen).ToList();
             if (ss(KieuTm.TheoSDT, a) == 1)
-                dsGiangVien.OrderBy(x => x.SoDT);
+                dsGiangVien= dsGiangVien.OrderBy(x => x.SoDT).ToList();
         }
+
         public GiangVien Tim(object a,SoSanh ss)
         {
             GiangVien gv = null;
@@ -54,10 +55,10 @@ namespace ChuongTrinhThongTinGiangVien
                 if (gv.MaSo.Contains(vien.MaSo))
                 {
                     dsGiangVien.Add(gv);
-                    return true;
+                    return false;
                 }
             }
-            return false;
+            return true;
         }
         public void Xoa(object temp,SoSanh ss)
         {
