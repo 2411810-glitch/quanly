@@ -1,0 +1,13 @@
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\DocVsTaoVanBan_lab3.exe.config
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\DocVsTaoVanBan_lab3.exe
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\DocVsTaoVanBan_lab3.pdb
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\Newtonsoft.Json.dll
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\Newtonsoft.Json.xml
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csprojAssemblyReference.cache
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.Form1.resources
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.Properties.Resources.resources
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csproj.GenerateResource.cache
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csproj.CoreCompileInputs.cache
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csproj.CopyComplete
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.exe
+Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.pdb
