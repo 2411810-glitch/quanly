@@ -20,3 +20,15 @@ F:\QuanLySinhVien_lab2\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLyS
 F:\QuanLySinhVien_lab2\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.csproj.CoreCompileInputs.cache
 F:\QuanLySinhVien_lab2\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.exe
 F:\QuanLySinhVien_lab2\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.pdb
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\bin\Debug\data.txt
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\bin\Debug\QuanLySinhVien_lab2.exe.config
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\bin\Debug\QuanLySinhVien_lab2.exe
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\bin\Debug\QuanLySinhVien_lab2.pdb
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.csprojAssemblyReference.cache
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.frmSinhVien.resources
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.Properties.Resources.resources
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.csproj.GenerateResource.cache
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.csproj.CoreCompileInputs.cache
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.exe
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.pdb
+Z:\quanly-main\baithuchanhbuoi2\Myform\QuanLySinhVien_lab2\QuanLySinhVien_lab2\obj\Debug\QuanLySinhVien_lab2.frmTuyChon.resources

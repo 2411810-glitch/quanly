@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupboxTTSV = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -40,7 +41,7 @@
             this.rdNam = new System.Windows.Forms.RadioButton();
             this.txtHinh = new System.Windows.Forms.TextBox();
             this.pbHinh = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnHinh = new System.Windows.Forms.Button();
             this.cboLop = new System.Windows.Forms.ComboBox();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
@@ -65,6 +66,21 @@
             this.ChuyenNganh = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Hinh = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuMoFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuThoat = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuThem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuXoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuSua = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFont = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuMauChu = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuSapXep = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuTim = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuTuyChon = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -72,12 +88,13 @@
             this.groupboxTTSV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbHinh)).BeginInit();
             this.groupboxDSSV.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 24);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -87,8 +104,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.groupboxDSSV);
-            this.splitContainer1.Size = new System.Drawing.Size(800, 409);
-            this.splitContainer1.SplitterDistance = 388;
+            this.splitContainer1.Size = new System.Drawing.Size(835, 401);
+            this.splitContainer1.SplitterDistance = 404;
             this.splitContainer1.TabIndex = 0;
             // 
             // groupboxTTSV
@@ -103,7 +120,7 @@
             this.groupboxTTSV.Controls.Add(this.rdNam);
             this.groupboxTTSV.Controls.Add(this.txtHinh);
             this.groupboxTTSV.Controls.Add(this.pbHinh);
-            this.groupboxTTSV.Controls.Add(this.button1);
+            this.groupboxTTSV.Controls.Add(this.btnHinh);
             this.groupboxTTSV.Controls.Add(this.cboLop);
             this.groupboxTTSV.Controls.Add(this.txtDiaChi);
             this.groupboxTTSV.Controls.Add(this.dtpNgaySinh);
@@ -119,7 +136,7 @@
             this.groupboxTTSV.Controls.Add(this.label1);
             this.groupboxTTSV.Location = new System.Drawing.Point(3, 3);
             this.groupboxTTSV.Name = "groupboxTTSV";
-            this.groupboxTTSV.Size = new System.Drawing.Size(382, 394);
+            this.groupboxTTSV.Size = new System.Drawing.Size(405, 394);
             this.groupboxTTSV.TabIndex = 0;
             this.groupboxTTSV.TabStop = false;
             this.groupboxTTSV.Text = "thong tin sinh vien";
@@ -193,6 +210,7 @@
             // rdNu
             // 
             this.rdNu.AutoSize = true;
+            this.rdNu.Checked = true;
             this.rdNu.Location = new System.Drawing.Point(180, 193);
             this.rdNu.Name = "rdNu";
             this.rdNu.Size = new System.Drawing.Size(39, 17);
@@ -231,14 +249,15 @@
             this.pbHinh.TabIndex = 8;
             this.pbHinh.TabStop = false;
             // 
-            // button1
+            // btnHinh
             // 
-            this.button1.Location = new System.Drawing.Point(346, 158);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(24, 25);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "...";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnHinh.Location = new System.Drawing.Point(346, 158);
+            this.btnHinh.Name = "btnHinh";
+            this.btnHinh.Size = new System.Drawing.Size(24, 25);
+            this.btnHinh.TabIndex = 7;
+            this.btnHinh.Text = "...";
+            this.btnHinh.UseVisualStyleBackColor = true;
+            this.btnHinh.Click += new System.EventHandler(this.btnHinh_Click);
             // 
             // cboLop
             // 
@@ -430,12 +449,131 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem4});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(835, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuMoFile,
+            this.menuThoat});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(37, 20);
+            this.toolStripMenuItem1.Text = "File";
+            // 
+            // menuMoFile
+            // 
+            this.menuMoFile.Name = "menuMoFile";
+            this.menuMoFile.Size = new System.Drawing.Size(180, 22);
+            this.menuMoFile.Text = "Mo File";
+            this.menuMoFile.Click += new System.EventHandler(this.menuMoFile_Click);
+            // 
+            // menuThoat
+            // 
+            this.menuThoat.Name = "menuThoat";
+            this.menuThoat.Size = new System.Drawing.Size(180, 22);
+            this.menuThoat.Text = "Thoat";
+            this.menuThoat.Click += new System.EventHandler(this.menuThoat_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuThem,
+            this.menuXoa,
+            this.menuSua,
+            this.toolStripMenuItem5,
+            this.menuTuyChon});
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(39, 20);
+            this.toolStripMenuItem4.Text = "Edit";
+            // 
+            // menuThem
+            // 
+            this.menuThem.Name = "menuThem";
+            this.menuThem.Size = new System.Drawing.Size(180, 22);
+            this.menuThem.Text = "Them";
+            this.menuThem.Click += new System.EventHandler(this.menuThem_Click);
+            // 
+            // menuXoa
+            // 
+            this.menuXoa.Name = "menuXoa";
+            this.menuXoa.Size = new System.Drawing.Size(180, 22);
+            this.menuXoa.Text = "Xoa";
+            this.menuXoa.Click += new System.EventHandler(this.menuXoa_Click);
+            // 
+            // menuSua
+            // 
+            this.menuSua.Name = "menuSua";
+            this.menuSua.Size = new System.Drawing.Size(180, 22);
+            this.menuSua.Text = "Sua";
+            this.menuSua.Click += new System.EventHandler(this.menuSua_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuFont,
+            this.menuMauChu,
+            this.menuSapXep,
+            this.menuTim});
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem5.Text = "list view";
+            // 
+            // menuFont
+            // 
+            this.menuFont.Name = "menuFont";
+            this.menuFont.Size = new System.Drawing.Size(180, 22);
+            this.menuFont.Text = "Font";
+            this.menuFont.Click += new System.EventHandler(this.menuFont_Click);
+            // 
+            // menuMauChu
+            // 
+            this.menuMauChu.Name = "menuMauChu";
+            this.menuMauChu.Size = new System.Drawing.Size(180, 22);
+            this.menuMauChu.Text = "Mau Chu";
+            // 
+            // menuSapXep
+            // 
+            this.menuSapXep.Name = "menuSapXep";
+            this.menuSapXep.Size = new System.Drawing.Size(180, 22);
+            this.menuSapXep.Text = "Sap Xep";
+            this.menuSapXep.Click += new System.EventHandler(this.menuSapXep_Click);
+            // 
+            // menuTim
+            // 
+            this.menuTim.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.menuTim.Name = "menuTim";
+            this.menuTim.Size = new System.Drawing.Size(180, 22);
+            this.menuTim.Text = "Tim Kiem";
+            // 
+            // menuTuyChon
+            // 
+            this.menuTuyChon.Name = "menuTuyChon";
+            this.menuTuyChon.Size = new System.Drawing.Size(180, 22);
+            this.menuTuyChon.Text = "Tuy Chon";
+            this.menuTuyChon.Click += new System.EventHandler(this.menuTuyChon_Click);
+            // 
             // frmSinhVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 409);
+            this.ClientSize = new System.Drawing.Size(835, 425);
             this.Controls.Add(this.splitContainer1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmSinhVien";
             this.Load += new System.EventHandler(this.frmSinhVien_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -446,7 +584,10 @@
             this.groupboxTTSV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbHinh)).EndInit();
             this.groupboxDSSV.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -456,7 +597,7 @@
         private System.Windows.Forms.GroupBox groupboxTTSV;
         private System.Windows.Forms.TextBox txtHinh;
         private System.Windows.Forms.PictureBox pbHinh;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHinh;
         private System.Windows.Forms.ComboBox cboLop;
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
@@ -489,6 +630,21 @@
         private System.Windows.Forms.ColumnHeader ChuyenNganh;
         private System.Windows.Forms.ColumnHeader Hinh;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem menuMoFile;
+        private System.Windows.Forms.ToolStripMenuItem menuThoat;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem menuThem;
+        private System.Windows.Forms.ToolStripMenuItem menuXoa;
+        private System.Windows.Forms.ToolStripMenuItem menuSua;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem menuFont;
+        private System.Windows.Forms.ToolStripMenuItem menuMauChu;
+        private System.Windows.Forms.ToolStripMenuItem menuSapXep;
+        private System.Windows.Forms.ToolStripMenuItem menuTim;
+        private System.Windows.Forms.ToolStripMenuItem menuTuyChon;
     }
 }
 

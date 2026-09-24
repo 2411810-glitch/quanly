@@ -169,7 +169,87 @@ namespace QuanLySinhVien_lab2
 
         private void btnthem_Click(object sender, EventArgs e)
         {
+            SinhVien sv = GetSinhVien();
+            qlsv.Them(sv);
+            this.LoadListView();
+        }
 
+        private void menuThem_Click(object sender, EventArgs e)
+        {
+            SinhVien sv = GetSinhVien();
+            qlsv.Them(sv);
+            this.LoadListView();
+        }
+
+        private void btnHinh_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+
+            ofd.Title = "Chọn hình ảnh";
+            ofd.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.gif;*.bmp";
+
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                pbHinh.Image = Image.FromFile(ofd.FileName);
+            }
+        }
+
+        private void menuThoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void menuXoa_Click(object sender, EventArgs e)
+        {
+            int count, i;
+            ListViewItem lvitem;
+            count = this.lvSinhVien.Items.Count - 1;
+            for (i = count; i > 0; i--)
+            {
+                lvitem = this.lvSinhVien.Items[i];
+                if (lvitem.Checked)
+                    qlsv.Xoa(lvitem.SubItems[i].Text, SoSanhTheoMa);
+            }
+            this.LoadListView();
+            this.btnMacDinh.PerformClick();
+        }
+
+        private void menuSua_Click(object sender, EventArgs e)
+        {
+            SinhVien sv = GetSinhVien();
+            bool kqsua;
+            kqsua = qlsv.Sua(sv, sv.MaSo, SoSanhTheoMa);
+            if (kqsua)
+            { this.LoadListView(); }
+        }
+
+        private void menuTuyChon_Click(object sender, EventArgs e)
+        {
+            frmTuyChon frm = new frmTuyChon(qlsv);
+            frm.ShowDialog();
+        }
+
+        private void menuMoFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+
+            ofd.Title = "Chọn hình ảnh";
+            ofd.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.gif;*.bmp";
+
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                pbHinh.Image = Image.FromFile(ofd.FileName);
+            }
+        }
+        
+        private void menuFont_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuSapXep_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

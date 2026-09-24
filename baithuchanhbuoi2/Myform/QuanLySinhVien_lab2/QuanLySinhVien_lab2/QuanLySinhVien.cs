@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace QuanLySinhVien_lab2
 {
     public delegate int SoSanh(object sv1, object sv2);
-    class QuanLySinhVien
+    public class QuanLySinhVien
     {
         public List<SinhVien> dsSinhVien;
         public QuanLySinhVien()
@@ -84,6 +84,21 @@ namespace QuanLySinhVien_lab2
                     this.Them(sv);
                 }
             }
+        }
+        public delegate int SoSanh
+            (object a, object b);
+        enum Kieu { 
+        MaSV,
+        HoTen,
+        NgaySinh}
+        public void SapXep(SoSanh ss,object a)
+        {
+            if (ss(Kieu.MaSV, a) == 1)
+                dsSinhVien = dsSinhVien.OrderBy(x => x.MaSo).ToList();
+            if (ss(Kieu.HoTen, a) == 1)
+                dsSinhVien = dsSinhVien.OrderBy(x => x.HoTen).ToList();
+            if (ss(Kieu.NgaySinh, a) == 1)
+                dsSinhVien = dsSinhVien.OrderBy(x => x.NgaySinh).ToList();
         }
     }
 }

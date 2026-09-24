@@ -1,1 +1,5 @@
-﻿SV.00002	Nguyen Van A	10/12/2003	Da Lat	CTK47	SinhVien1.png	1	mang truyen thong,cong nghe phan mem	
+﻿SV.00002	Nguyen Van A	15/10/2003	Da Lat	CTK47	SinhVien1.png	1	mang truyen thong,cong nghe phan mem
+SV.00010	Nguyen Thi Hoa	20/7/2002	Ha Noi	CTK47	SinhVien2.png	0	Cong nghe phan mem,Tri tue nhan tao,He thong thong tin
+SV.00020	Nguyen Van Hung	25/8/2003	Gia Lai	CTK47	SinhVien3.png	1	Mang truyen thong,Tri tue nhan tao,He thong thong tin
+SV.00018	Le Thi Anh Thu	20/11/2001	Da Lat	CTK47	SinhVien4.png	0	Cong nghe phan mem,Tri tue nhan tao,He thong thong tin
+SV.00013	Hoang Lam Vi	20/9/2003	Binh Dinh	CTK47	SinhVien5.png	0	Mang truyen thong,Tri tue nhan tao,He thong thong tin
