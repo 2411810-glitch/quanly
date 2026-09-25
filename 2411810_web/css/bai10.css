@@ -44,14 +44,16 @@ ul
 	color:blue;
 	height:500px;
 	margin-left:10px;
+	margin-right:0;
 
 }
 .giua
 {
 	width:50%;
-	color:yellow;
+	color:white;
 	height:500px;
-	margin:20px;
+	background-color:gray;
+	margin:0;
 }
 .phai
 {
@@ -59,4 +61,6 @@ ul
 	color:green;
 	height:500px;
 	margin-right:10px;
+	margin-left:0;
+	padding-left:10px;
 }
