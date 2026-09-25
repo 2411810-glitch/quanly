@@ -1,0 +1,58 @@
+Câu 1.1:
+IP Address: tầng Internet/Network -> xác định Host.
+
+Port: tầng Transport -> xác định tiến trình/ứng dụng.
+
+Port cần thiết vì một máy có thể chạy nhiều ứng dụng cùng lúc, IP chỉ xác định máy, Port xác định đúng ứng dụng nhận dữ liệu.
+
+Câu 1.2:
+DNS thường dùng UDP, Port 53.
+
+TCP 53 dùng trong một số trường hợp như zone transfer hoặc khi cần kết nối TCP.
+
+Câu 1.3:
+Subnet Mask: xác định phần Network và Host của địa chỉ IP, từ đó biết đích có cùng LAN hay không.
+
+Default Gateway: địa chỉ router dùng để chuyển dữ liệu đến mạng khác khi đích không thuộc LAN.
+
+Câu 2.1:
+Parse(): chuỗi sai định dạng → ném FormatException.
+
+TryParse(): trả về true/false, không ném exception.
+
+Câu 2.2:
+AddressFamily dùng để xác định loại địa chỉ mạng mà một đối tượng IPAddress đang chứa, chủ yếu là IPv4 hay IPv6.
+
+Có 2 giá trị quan trọng:
+
+AddressFamily.InterNetwork -> IPv4
+
+AddressFamily.InterNetworkV6 -> IPv6
+Câu 2.3:
+Loopback (127.0.0.1): giao tiếp với chính máy hiện tại, thường dùng để kiểm thử.
+
+Any (0.0.0.0): đại diện mọi địa chỉ IPv4 cục bộ, thường dùng khi Bind() để lắng nghe trên tất cả interface.
+
+Câu 2.4:
+IPv4 → GetAddressBytes() trả về 4 byte.
+
+Big-Endian (Network Byte Order): byte cao đặt trước.
+
+Little-Endian (Host Byte Order): byte thấp đặt trước.
+
+Câu 3.1:
+IPHostEntry chứa tên Host, bí danh (Aliases) và danh sách địa chỉ IP (AddressList). AddressList là mảng vì một Host có thể có nhiều IPv4/IPv6.
+
+Câu 3.2:
+Domain "dlu.edu.vn" → DNS phân giải tên → IP.
+
+IP "8.8.8.8" → thực hiện reverse DNS, tìm tên Host tương ứng nếu có.
+
+Câu 3.3:
+Thường phát sinh SocketException. SocketErrorCode cho biết mã lỗi cụ thể, ví dụ HostNotFound, NoData, TimedOut, giúp xác định nguyên nhân.
+
+Câu 4.1:
+IPEndPoint = IP Address + Port. Nó xác định chính xác một endpoint (điểm giao tiếp), nên Bind(), Connect(), SendTo() cần thông tin này.
+
+Câu 4.2:
+NetworkInterface cung cấp thông tin về card mạng/interface mà Dns không có, như: tên interface, MAC Address, trạng thái kết nối, tốc độ, loại mạng, địa chỉ IP/gateway/DNS cấu hình.
