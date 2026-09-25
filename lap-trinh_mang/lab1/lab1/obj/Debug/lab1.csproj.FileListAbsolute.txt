@@ -1,0 +1,7 @@
+Z:\lap-trinh_mang\lab1\lab1\bin\Debug\lab1.exe.config
+Z:\lap-trinh_mang\lab1\lab1\bin\Debug\lab1.exe
+Z:\lap-trinh_mang\lab1\lab1\bin\Debug\lab1.pdb
+Z:\lap-trinh_mang\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+Z:\lap-trinh_mang\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+Z:\lap-trinh_mang\lab1\lab1\obj\Debug\lab1.exe
+Z:\lap-trinh_mang\lab1\lab1\obj\Debug\lab1.pdb
