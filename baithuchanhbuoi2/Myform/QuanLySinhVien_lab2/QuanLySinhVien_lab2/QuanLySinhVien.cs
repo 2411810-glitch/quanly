@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 
 namespace QuanLySinhVien_lab2
@@ -50,13 +51,17 @@ namespace QuanLySinhVien_lab2
                 }
             return kq;
         }
-        public void Xoa (object obj,SoSanh ss)
-        {
-            int i = dsSinhVien.Count - 1;
-            for (; i >= 0; i--)
-                if (ss(obj, this[i]) == 0)
-                    this.dsSinhVien.RemoveAt(i);
-        }
+        public void Xoa(string maSo)
+		{
+			for (int i = dsSinhVien.Count - 1; i >= 0; i--)
+			{
+				if (dsSinhVien[i].MaSo == maSo)
+				{
+					dsSinhVien.RemoveAt(i);
+					return;
+				}
+			}
+		}
         public void DocTuFile(string filename)
         {
             string t;
@@ -71,7 +76,7 @@ namespace QuanLySinhVien_lab2
                     sv = new SinhVien();
                     sv.MaSo = s[0];
                     sv.HoTen = s[1];
-                    sv.NgaySinh = DateTime.Parse(s[2]);
+				sv.NgaySinh = DateTime.ParseExact(s[2].Trim(),"d/M/yyyy",System.Globalization.CultureInfo.InvariantCulture);
                     sv.DiaChi = s[3];
                     sv.Lop = s[4];
                     sv.Hinh = s[5];

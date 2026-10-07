@@ -29,8 +29,8 @@ namespace QuanLySinhVien_lab2
                 gt = "Nam";
             lvitem.SubItems.Add(gt);
             string cn = "";
-            foreach (string s in sv.ChuyenNganh)
-                cn = cn.Substring(0, cn.Length);
+			foreach(string s in sv.ChuyenNganh)
+				cn += s + ", ";
             lvitem.SubItems.Add(sv.Hinh);
             this.lvSinhVien.Items.Add(lvitem);
         }
@@ -111,13 +111,35 @@ namespace QuanLySinhVien_lab2
 
         private void lvSinhVien_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int count = this.lvSinhVien.SelectedItems.Count;
-            if(count>0)
-            {
-                ListViewItem lvitem = this.lvSinhVien.SelectedItems[0];
-                SinhVien sv = GetSinhVien(lvitem);
-                ThietLapThongTin(sv);
-            }
+            if (lvSinhVien.SelectedItems.Count == 0)
+			return;
+
+		int index = lvSinhVien.SelectedItems[0].Index;
+
+		SinhVien sv = qlsv[index];
+
+		mtxtMaSo.Text = sv.MaSo;
+		txtHoTen.Text = sv.HoTen;
+		dtpNgaySinh.Value = sv.NgaySinh;
+		txtDiaChi.Text = sv.DiaChi;
+		cboLop.Text = sv.Lop;
+
+		if (sv.GioiTinh)
+			rdNam.Checked = true;
+		else
+			rdNu.Checked = true;
+
+		for (int i = 0; i < clbChuyenNganh.Items.Count; i++)
+			clbChuyenNganh.SetItemChecked(i, false);
+
+		foreach (string cn in sv.ChuyenNganh)
+		{
+			for (int i = 0; i < clbChuyenNganh.Items.Count; i++)
+			{
+			if (clbChuyenNganh.Items[i].ToString() == cn)
+				clbChuyenNganh.SetItemChecked(i, true);
+			}
+		}
         }
 
         private void btnMacDinh_Click(object sender, EventArgs e)
@@ -141,21 +163,24 @@ namespace QuanLySinhVien_lab2
         private int SoSanhTheoMa(object sv1,object sv2)
         {
             SinhVien sv = sv2 as SinhVien;
-            return sv.MaSo.CompareTo(sv1);
+            return sv.MaSo.CompareTo(sv1.ToString());
         }
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            int count, i;
-            ListViewItem lvitem;
-            count = this.lvSinhVien.Items.Count - 1;
-            for(i=count;i>0;i--)
-            {
-                lvitem = this.lvSinhVien.Items[i];
-                if (lvitem.Checked)
-                    qlsv.Xoa(lvitem.SubItems[i].Text, SoSanhTheoMa);
-            }
-            this.LoadListView();
-            this.btnMacDinh.PerformClick();
+           for (int i = lvSinhVien.Items.Count - 1; i >= 0; i--)
+		{
+			ListViewItem lvitem = lvSinhVien.Items[i];
+
+			if (lvitem.Checked)
+			{
+				 string maSo = lvitem.SubItems[0].Text;
+
+				MessageBox.Show("Mã đang xóa: [" + maSo + "]");
+
+				 qlsv.Xoa(maSo);
+			}
+		}
+		LoadListView();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -204,11 +229,11 @@ namespace QuanLySinhVien_lab2
             int count, i;
             ListViewItem lvitem;
             count = this.lvSinhVien.Items.Count - 1;
-            for (i = count; i > 0; i--)
+            for (i = count; i >=0; i--)
             {
                 lvitem = this.lvSinhVien.Items[i];
                 if (lvitem.Checked)
-                    qlsv.Xoa(lvitem.SubItems[i].Text, SoSanhTheoMa);
+                    return;
             }
             this.LoadListView();
             this.btnMacDinh.PerformClick();

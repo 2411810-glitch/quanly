@@ -34,3 +34,15 @@ F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug
 F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.CoreCompileInputs.cache
 F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.exe
 F:\desktop\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.pdb
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe.config
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.exe
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\bin\Debug\ChuongTrinhThongTinGiangVien.pdb
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.AssemblyReference.cache
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmGiangVien.resources
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTBGiangVien.resources
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.frmTim.resources
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.Properties.Resources.resources
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.GenerateResource.cache
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.csproj.CoreCompileInputs.cache
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.exe
+F:\quanly\baithuchanhbuoi2\Myform\ChuongTrinhThongTinGiangVien\obj\Debug\ChuongTrinhThongTinGiangVien.pdb

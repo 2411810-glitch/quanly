@@ -13,12 +13,14 @@ namespace ChuongTrinhThongTinGiangVien
 {
     public partial class frmGiangVien : Form
     {
+				QuanLyGiangVien dsGiangVien;
         public frmGiangVien()
         {
             InitializeComponent();
+			dsGiangVien = new QuanLyGiangVien();
         }
 
-		QuanLyGiangVien dsGiangVien;
+
         private void frmGiangVien_Load(object sender, EventArgs e)
         {
             string lienHe = "https://cntt.dlu.edu.vn/";
