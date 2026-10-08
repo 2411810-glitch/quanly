@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Bai1_lab3
 {
 	internal class QuanLySV
 	{
-		private List<Student> dssv;
+		public List<Student> dssv;
 		public QuanLySV()
 		{
 			dssv = new List<Student>();
@@ -86,6 +87,37 @@ namespace Bai1_lab3
 		public bool KiemTraSDT(string sdt)
 		{
 			return Regex.IsMatch(sdt, @"^\d{10}$");
+		}
+		public void ThemSV(Student sv)
+        {
+			this.dssv.Add(sv);
+        }
+		public void DocTuFile(string filename)
+		{
+			string t;
+			string[] s;
+			Student sv;
+			using (StreamReader sr = new StreamReader(
+				new FileStream(filename, FileMode.Open)))
+			{
+				while ((t = sr.ReadLine()) != null)
+				{
+					s = t.Split('\t');
+					sv = new Student();
+					sv.MSSV = s[0];
+					sv.HoVaTenLot = s[1];
+					sv.Ten = s[2];
+					sv.NgaySinh = DateTime.ParseExact(s[3].Trim(), "d/M/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+					sv.Lop = s[4];
+					sv.SoCMND = s[5];
+					sv.SoDT = s[6];
+					sv.DiaChi = s[7];
+					string[] mon = s[8].Split(',');
+					foreach (string c in mon)
+						sv.MonDangKy.Add(c);
+					this.ThemSV(sv);
+				}
+			}
 		}
 	}
 }

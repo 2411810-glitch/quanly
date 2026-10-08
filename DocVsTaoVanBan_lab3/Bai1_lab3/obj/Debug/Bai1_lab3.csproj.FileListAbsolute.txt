@@ -8,3 +8,14 @@ F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csproj.GenerateResou
 F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csproj.CoreCompileInputs.cache
 F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.exe
 F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.pdb
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\Bai1_lab3.exe.config
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\Bai1_lab3.exe
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\Bai1_lab3.pdb
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csprojAssemblyReference.cache
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.frmQuanLySV.resources
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.Properties.Resources.resources
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csproj.GenerateResource.cache
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csproj.CoreCompileInputs.cache
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.exe
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.pdb
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\data.txt

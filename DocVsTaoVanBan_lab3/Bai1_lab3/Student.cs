@@ -8,7 +8,7 @@ namespace Bai1_lab3
 {
 	internal class Student
 	{
-		    public string MSSV { get; set; }
+	public string MSSV { get; set; }
     public string HoVaTenLot { get; set; }
     public string Ten { get; set; }
     public DateTime NgaySinh { get; set; }
