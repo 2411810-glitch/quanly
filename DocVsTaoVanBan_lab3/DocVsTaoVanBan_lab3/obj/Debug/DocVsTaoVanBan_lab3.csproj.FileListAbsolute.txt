@@ -11,3 +11,16 @@ Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debu
 Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csproj.CopyComplete
 Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.exe
 Z:\quanly-main\baithuchanhbuoi2\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.pdb
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\DocVsTaoVanBan_lab3.exe.config
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\DocVsTaoVanBan_lab3.exe
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\DocVsTaoVanBan_lab3.pdb
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\Newtonsoft.Json.dll
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\bin\Debug\Newtonsoft.Json.xml
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csproj.AssemblyReference.cache
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.Form1.resources
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.Properties.Resources.resources
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csproj.GenerateResource.cache
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.csproj.CoreCompileInputs.cache
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTao.610ACBA6.Up2Date
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.exe
+F:\quanly\DocVsTaoVanBan_lab3\DocVsTaoVanBan_lab3\obj\Debug\DocVsTaoVanBan_lab3.pdb

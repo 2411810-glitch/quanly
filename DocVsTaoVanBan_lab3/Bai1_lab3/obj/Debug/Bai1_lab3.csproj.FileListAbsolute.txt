@@ -1,0 +1,10 @@
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\Bai1_lab3.exe.config
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\Bai1_lab3.exe
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\Bai1_lab3.pdb
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csproj.AssemblyReference.cache
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.Form1.resources
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.Properties.Resources.resources
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csproj.GenerateResource.cache
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.csproj.CoreCompileInputs.cache
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.exe
+F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.pdb

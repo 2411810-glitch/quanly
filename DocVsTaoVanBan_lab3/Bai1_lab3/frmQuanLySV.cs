@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Bai1_lab3
 {
-	public partial class Form1 : Form
+	public partial class frmQuanLySV : Form
 	{
-		public Form1( )
+		public frmQuanLySV( )
 		{
 			InitializeComponent( );
 		}
