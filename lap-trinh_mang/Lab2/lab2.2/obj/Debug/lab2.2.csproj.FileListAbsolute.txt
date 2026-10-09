@@ -1,0 +1,7 @@
+Z:\quanly-main\lap-trinh_mang\Lab2\lab2.2\bin\Debug\lab2.2.exe.config
+Z:\quanly-main\lap-trinh_mang\Lab2\lab2.2\bin\Debug\lab2.2.exe
+Z:\quanly-main\lap-trinh_mang\Lab2\lab2.2\bin\Debug\lab2.2.pdb
+Z:\quanly-main\lap-trinh_mang\Lab2\lab2.2\obj\Debug\lab2.2.csprojAssemblyReference.cache
+Z:\quanly-main\lap-trinh_mang\Lab2\lab2.2\obj\Debug\lab2.2.csproj.CoreCompileInputs.cache
+Z:\quanly-main\lap-trinh_mang\Lab2\lab2.2\obj\Debug\lab2.2.exe
+Z:\quanly-main\lap-trinh_mang\Lab2\lab2.2\obj\Debug\lab2.2.pdb
