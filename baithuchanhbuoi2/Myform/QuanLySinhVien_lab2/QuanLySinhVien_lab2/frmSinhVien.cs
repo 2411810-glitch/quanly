@@ -167,20 +167,14 @@ namespace QuanLySinhVien_lab2
         }
         private void btnXoa_Click(object sender, EventArgs e)
         {
-           for (int i = lvSinhVien.Items.Count - 1; i >= 0; i--)
-		{
-			ListViewItem lvitem = lvSinhVien.Items[i];
+			SinhVien sv = GetSinhVien( );
+			bool kq;
 
-			if (lvitem.Checked)
+			kq =  qlsv.Xoa( sv.MaSo );
+			if( kq )
 			{
-				 string maSo = lvitem.SubItems[0].Text;
-
-				MessageBox.Show("Mã đang xóa: [" + maSo + "]");
-
-				 qlsv.Xoa(maSo);
+				LoadListView();
 			}
-		}
-		LoadListView();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -226,17 +220,14 @@ namespace QuanLySinhVien_lab2
 
         private void menuXoa_Click(object sender, EventArgs e)
         {
-            int count, i;
-            ListViewItem lvitem;
-            count = this.lvSinhVien.Items.Count - 1;
-            for (i = count; i >=0; i--)
-            {
-                lvitem = this.lvSinhVien.Items[i];
-                if (lvitem.Checked)
-                    return;
-            }
-            this.LoadListView();
-            this.btnMacDinh.PerformClick();
+            SinhVien sv = GetSinhVien( );
+			bool kq;
+
+			kq =  qlsv.Xoa( sv.MaSo );
+			if( kq )
+			{
+				LoadListView();
+			}
         }
 
         private void menuSua_Click(object sender, EventArgs e)
@@ -269,12 +260,31 @@ namespace QuanLySinhVien_lab2
         
         private void menuFont_Click(object sender, EventArgs e)
         {
-
+			FontDialog fd = new FontDialog();
+			fd.Font = lvSinhVien.Font;
+			if(fd.ShowDialog()==DialogResult.OK)
+			{
+				lvSinhVien.Font = fd.Font;
+			}
         }
+		
 
         private void menuSapXep_Click(object sender, EventArgs e)
         {
-            
+			qlsv.SapXep( QuanLySinhVien.Kieu.MaSV );
+			LoadListView();
+
         }
-    }
+
+		private void menuMauChu_Click( object sender, EventArgs e )
+		{
+			ColorDialog cd = new ColorDialog();
+			cd.Color = lvSinhVien.ForeColor;
+			if(cd.ShowDialog()==DialogResult.OK )
+			{
+				lvSinhVien.ForeColor = cd.Color;
+			}
+		}
+
+	}
 }

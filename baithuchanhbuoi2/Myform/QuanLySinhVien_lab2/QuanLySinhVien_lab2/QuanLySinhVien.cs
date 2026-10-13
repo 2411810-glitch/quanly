@@ -51,16 +51,17 @@ namespace QuanLySinhVien_lab2
                 }
             return kq;
         }
-        public void Xoa(string maSo)
+        public bool Xoa(string maSo)
 		{
 			for (int i = dsSinhVien.Count - 1; i >= 0; i--)
 			{
 				if (dsSinhVien[i].MaSo == maSo)
 				{
 					dsSinhVien.RemoveAt(i);
-					return;
+					return true;
 				}
 			}
+			return false;
 		}
         public void DocTuFile(string filename)
         {
@@ -92,18 +93,31 @@ namespace QuanLySinhVien_lab2
         }
         public delegate int SoSanh
             (object a, object b);
-        enum Kieu { 
+		public int SoSanhKieu(object a, object b)
+		{
+			return  ((Kieu)a).CompareTo(b);
+		}
+        public enum Kieu { 
         MaSV,
         HoTen,
         NgaySinh}
-        public void SapXep(SoSanh ss,object a)
-        {
-            if (ss(Kieu.MaSV, a) == 1)
-                dsSinhVien = dsSinhVien.OrderBy(x => x.MaSo).ToList();
-            if (ss(Kieu.HoTen, a) == 1)
-                dsSinhVien = dsSinhVien.OrderBy(x => x.HoTen).ToList();
-            if (ss(Kieu.NgaySinh, a) == 1)
-                dsSinhVien = dsSinhVien.OrderBy(x => x.NgaySinh).ToList();
-        }
+       
+		public void SapXep(Kieu kieu)
+{
+    switch (kieu)
+    {
+        case Kieu.MaSV:
+            dsSinhVien = dsSinhVien.OrderBy(x => x.MaSo).ToList();
+            break;
+
+        case Kieu.HoTen:
+            dsSinhVien = dsSinhVien.OrderBy(x => x.HoTen).ToList();
+            break;
+
+        case Kieu.NgaySinh:
+            dsSinhVien = dsSinhVien.OrderBy(x => x.NgaySinh).ToList();
+            break;
+    }
+}
     }
 }
