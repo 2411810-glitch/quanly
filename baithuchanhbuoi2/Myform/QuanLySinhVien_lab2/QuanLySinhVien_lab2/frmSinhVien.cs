@@ -181,7 +181,7 @@ namespace QuanLySinhVien_lab2
         {
             SinhVien sv = GetSinhVien();
             bool kqsua;
-            kqsua = qlsv.Sua(sv, sv.MaSo, SoSanhTheoMa);
+            kqsua = qlsv.Sua(sv,sv.MaSo);
             if (kqsua)
             { this.LoadListView(); }
         }
@@ -234,15 +234,19 @@ namespace QuanLySinhVien_lab2
         {
             SinhVien sv = GetSinhVien();
             bool kqsua;
-            kqsua = qlsv.Sua(sv, sv.MaSo, SoSanhTheoMa);
+            kqsua = qlsv.Sua(sv,sv.MaSo);
             if (kqsua)
             { this.LoadListView(); }
         }
 
         private void menuTuyChon_Click(object sender, EventArgs e)
         {
-            frmTuyChon frm = new frmTuyChon(qlsv);
-            frm.ShowDialog();
+			frmTuyChon frm = new frmTuyChon(qlsv);
+			if(frm.ShowDialog() == DialogResult.OK)
+			{
+				LoadListView( );
+			}
+			
         }
 
         private void menuMoFile_Click(object sender, EventArgs e)

@@ -52,6 +52,7 @@ namespace Bai1_lab3
         {
 			Student sv = GetSV();
 			dssv.CapNhat(sv);
+			LoadListView();
         }
 		private void ThemSV(Student sv)
         {
@@ -75,7 +76,7 @@ namespace Bai1_lab3
 			this.lvDSSV.Items.Add(lv);
 
         }
-		private void LoadListView()
+		public void LoadListView()
         {
 			this.lvDSSV.Items.Clear();
 			foreach (Student sv in dssv.dssv)
@@ -121,5 +122,11 @@ namespace Bai1_lab3
                 }
             }
         }
-    }
+
+		private void btnTim_Click( object sender, EventArgs e )
+		{
+			frmTim frm = new frmTim(dssv,this);
+			frm.ShowDialog();
+		}
+	}
 }

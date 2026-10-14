@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bai1_lab3
 {
-	internal class Student
+	public class Student
 	{
 	public string MSSV { get; set; }
     public string HoVaTenLot { get; set; }

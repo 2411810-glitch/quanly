@@ -26,24 +26,31 @@ namespace QuanLySinhVien_lab2
         {
             this.dsSinhVien.Add(sv);
         }
-        public SinhVien Tim(object obj,SoSanh ss)
+        public SinhVien Tim(Kieu kieu,object a)
         {
-            SinhVien svresult = null;
-            foreach(SinhVien sv in dsSinhVien)
-                if(ss(obj,sv)==0)
-                {
-                    svresult = sv;
-                    break;
-                }
-            return svresult;
+			SinhVien sv = new SinhVien();
+			switch(kieu)
+			{
+				case Kieu.MaSV:
+					sv = dsSinhVien.FirstOrDefault(x=>x.MaSo==a.ToString());
+					break;
+				case Kieu.HoTen:
+					sv = dsSinhVien.FirstOrDefault(x=>x.HoTen==a.ToString());
+					break;
+				case Kieu.NgaySinh:
+					DateTime ngay = Convert.ToDateTime( a );
+					sv = dsSinhVien.FirstOrDefault( x => x.NgaySinh.Date == ngay );
+					break;
+			}
+			return sv;
         }
-        public bool Sua(SinhVien svsua,object obj,SoSanh ss )
+        public bool Sua(SinhVien svsua,string maSo)
         {
             int i, cout;
             bool kq = false;
             cout = this.dsSinhVien.Count - 1;
-            for (i = 0; i < cout; i++) 
-                if(ss(obj,this[i])==0)
+            for (i = 0; i <= cout; i++)
+				if(dsSinhVien[i].MaSo==maSo)
                 {
                     this[i] = svsua;
                     kq = true;

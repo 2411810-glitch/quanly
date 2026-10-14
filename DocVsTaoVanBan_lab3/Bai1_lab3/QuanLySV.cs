@@ -8,7 +8,7 @@ using System.IO;
 
 namespace Bai1_lab3
 {
-	internal class QuanLySV
+	public class QuanLySV
 	{
 		public List<Student> dssv;
 		public QuanLySV()
@@ -41,41 +41,30 @@ namespace Bai1_lab3
 		}
 		public bool CapNhat(Student a)
 		{
-			Student sv = dssv.FirstOrDefault(x => x.MSSV == a.MSSV);
-
-			if (sv == null)
-				return false;
-			sv.HoVaTenLot = a.HoVaTenLot;
-			sv.Ten = a.Ten;
-			sv.NgaySinh = a.NgaySinh;
-			sv.Lop = a.Lop;
-			sv.SoCMND = a.SoCMND;
-			sv.SoDT = a.SoDT;
-			sv.DiaChi = a.DiaChi;
-			sv.MonDangKy = a.MonDangKy;
-			return true;
+			for (int i=0;i<dssv.Count;i++)
+			{
+				if(dssv[i].MSSV == a.MSSV)
+				{
+					dssv[i] = a;
+					return true;
+				}
+			}
+			return false;
 		}
-		public List<Student> TimKiem(string mssv = "",string ten = "",string lop = "")
+
+		public List<Student> TimKiem(string tuKhoa)
 		{
-			var ketQua = dssv.AsEnumerable();
+			if (string.IsNullOrWhiteSpace(tuKhoa))
+				return new List<Student>();
 
-			if (!string.IsNullOrWhiteSpace(mssv))
-			{
-				ketQua = ketQua.Where(x =>x.MSSV.Contains(mssv));
-			}
+			tuKhoa = tuKhoa.Trim();
 
-			if (!string.IsNullOrWhiteSpace(ten))
-			{
-				ketQua = ketQua.Where(x =>x.HoTen.IndexOf(ten,StringComparison.OrdinalIgnoreCase) >= 0);
-			}
-
-			if (!string.IsNullOrWhiteSpace(lop))
-			{
-				ketQua = ketQua.Where(x => x.Lop.IndexOf(lop, StringComparison.OrdinalIgnoreCase) >= 0);
-			}
-
-			return ketQua.ToList();
+			return dssv.Where(sv =>
+			sv.MSSV.IndexOf(tuKhoa, StringComparison.OrdinalIgnoreCase) >= 0 ||
+			sv.HoTen.IndexOf(tuKhoa, StringComparison.OrdinalIgnoreCase) >= 0 ||
+			sv.Lop.IndexOf(tuKhoa, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
 		}
+
 		public bool KiemTraMSSV(string mssv)
 		{
 			return Regex.IsMatch(mssv, @"^\d{7}$");
