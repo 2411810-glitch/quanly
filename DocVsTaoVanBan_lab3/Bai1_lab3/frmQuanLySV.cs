@@ -29,6 +29,7 @@ namespace Bai1_lab3
 		private Student GetSV()
         {
 			Student sv = new Student();
+			bool gt = true;
 			sv.MSSV = mtbMSSV.Text;
 			sv.HoVaTenLot = txtHoTenLot.Text;
 			sv.Ten = txtTen.Text;
@@ -37,6 +38,9 @@ namespace Bai1_lab3
 			sv.SoCMND = mtxtCMND.Text;
 			sv.SoDT = mtxtDT.Text;
 			sv.DiaChi = txtDiaChi.Text;
+			if(rdNu.Checked)
+				gt= false;
+			sv.GioiTinh = gt;
 			List<string> monDK = new List<string>();
 			for (int i = 0; i < clbMon.Items.Count; i++)
 			{
@@ -64,15 +68,12 @@ namespace Bai1_lab3
 			lv.SubItems.Add(sv.SoCMND);
 			lv.SubItems.Add(sv.SoDT);
 			lv.SubItems.Add(sv.DiaChi);
-			string gt = "";
-			if (rdNam.Checked)
-				gt = "Nam";
-			else
-				gt = "Nu";
+			string gt = sv.GioiTinh ? "Nam" : "Nu";
 			lv.SubItems.Add(gt);
 			string monDK = "";
 			foreach (string s in sv.MonDangKy)
 				monDK += s + ", ";
+			lv.SubItems.Add(monDK);
 			this.lvDSSV.Items.Add(lv);
 
         }
@@ -82,6 +83,23 @@ namespace Bai1_lab3
 			foreach (Student sv in dssv.dssv)
 				ThemSV(sv);
         }
+		public void LoadListView(QuanLySV ds)
+		{
+			this.lvDSSV.Items.Clear( );
+			foreach(Student sv in ds.dssv)
+			{
+				ListViewItem lv = new ListViewItem( sv.MSSV );
+				lv.SubItems.Add( sv.HoVaTenLot );
+				lv.SubItems.Add( sv.Ten );
+				lv.SubItems.Add( sv.NgaySinh.ToString("dd/MM/yyyy") );
+				lv.SubItems.Add( sv.Lop );
+				lv.SubItems.Add( sv.SoCMND );
+				lv.SubItems.Add( sv.SoDT );
+				lv.SubItems.Add( sv.DiaChi );
+				lv.SubItems.Add( string.Join(", ",sv.MonDangKy) );
+				lvDSSV.Items.Add(lv);
+			}
+		}
 		
 
         private void btnthem_Click(object sender, EventArgs e)
@@ -111,6 +129,7 @@ namespace Bai1_lab3
 			cbLop.Text = sv.Lop;
 			mtxtCMND.Text = sv.SoCMND;
 			mtxtDT.Text = sv.SoDT;
+			txtDiaChi.Text = sv.DiaChi;
 			for (int i = 0; i < clbMon.Items.Count; i++)
 				clbMon.SetItemChecked(i, false);
 			foreach(string mon in sv.MonDangKy)

@@ -63,6 +63,7 @@
 			this.SDT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.DiaChi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.mon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+			this.gt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.SuspendLayout();
 			// 
 			// label1
@@ -110,8 +111,8 @@
 			this.clbMon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.clbMon.MultiColumn = true;
 			this.clbMon.Name = "clbMon";
-			this.clbMon.Size = new System.Drawing.Size(572, 72);
-			this.clbMon.TabIndex = 3;
+			this.clbMon.Size = new System.Drawing.Size(572, 89);
+			this.clbMon.TabIndex = 10;
 			// 
 			// label4
 			// 
@@ -129,7 +130,7 @@
 			this.mtbMSSV.Mask = "000000";
 			this.mtbMSSV.Name = "mtbMSSV";
 			this.mtbMSSV.Size = new System.Drawing.Size(224, 22);
-			this.mtbMSSV.TabIndex = 5;
+			this.mtbMSSV.TabIndex = 0;
 			// 
 			// txtHoTenLot
 			// 
@@ -137,7 +138,7 @@
 			this.txtHoTenLot.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.txtHoTenLot.Name = "txtHoTenLot";
 			this.txtHoTenLot.Size = new System.Drawing.Size(224, 22);
-			this.txtHoTenLot.TabIndex = 6;
+			this.txtHoTenLot.TabIndex = 1;
 			// 
 			// dtpNgaySinh
 			// 
@@ -145,7 +146,7 @@
 			this.dtpNgaySinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.dtpNgaySinh.Name = "dtpNgaySinh";
 			this.dtpNgaySinh.Size = new System.Drawing.Size(224, 22);
-			this.dtpNgaySinh.TabIndex = 8;
+			this.dtpNgaySinh.TabIndex = 2;
 			// 
 			// mtxtCMND
 			// 
@@ -154,7 +155,7 @@
 			this.mtxtCMND.Mask = "000000000";
 			this.mtxtCMND.Name = "mtxtCMND";
 			this.mtxtCMND.Size = new System.Drawing.Size(224, 22);
-			this.mtxtCMND.TabIndex = 9;
+			this.mtxtCMND.TabIndex = 3;
 			// 
 			// label5
 			// 
@@ -171,7 +172,7 @@
 			this.txtDiaChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.txtDiaChi.Name = "txtDiaChi";
 			this.txtDiaChi.Size = new System.Drawing.Size(572, 22);
-			this.txtDiaChi.TabIndex = 11;
+			this.txtDiaChi.TabIndex = 9;
 			// 
 			// label6
 			// 
@@ -217,7 +218,7 @@
 			this.rdNam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.rdNam.Name = "rdNam";
 			this.rdNam.Size = new System.Drawing.Size(57, 20);
-			this.rdNam.TabIndex = 13;
+			this.rdNam.TabIndex = 4;
 			this.rdNam.TabStop = true;
 			this.rdNam.Text = "Nam";
 			this.rdNam.UseVisualStyleBackColor = true;
@@ -229,7 +230,7 @@
 			this.rdNu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.rdNu.Name = "rdNu";
 			this.rdNu.Size = new System.Drawing.Size(45, 20);
-			this.rdNu.TabIndex = 13;
+			this.rdNu.TabIndex = 5;
 			this.rdNu.Text = "Nu";
 			this.rdNu.UseVisualStyleBackColor = true;
 			// 
@@ -239,7 +240,7 @@
 			this.txtTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.txtTen.Name = "txtTen";
 			this.txtTen.Size = new System.Drawing.Size(225, 22);
-			this.txtTen.TabIndex = 14;
+			this.txtTen.TabIndex = 6;
 			// 
 			// mtxtDT
 			// 
@@ -248,7 +249,7 @@
 			this.mtxtDT.Mask = "0000.000.000";
 			this.mtxtDT.Name = "mtxtDT";
 			this.mtxtDT.Size = new System.Drawing.Size(225, 22);
-			this.mtxtDT.TabIndex = 15;
+			this.mtxtDT.TabIndex = 8;
 			// 
 			// cbLop
 			// 
@@ -267,7 +268,7 @@
 			this.cbLop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.cbLop.Name = "cbLop";
 			this.cbLop.Size = new System.Drawing.Size(225, 24);
-			this.cbLop.TabIndex = 16;
+			this.cbLop.TabIndex = 7;
 			// 
 			// label10
 			// 
@@ -284,7 +285,7 @@
 			this.btnthem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnthem.Name = "btnthem";
 			this.btnthem.Size = new System.Drawing.Size(107, 23);
-			this.btnthem.TabIndex = 18;
+			this.btnthem.TabIndex = 11;
 			this.btnthem.Text = "Them moi";
 			this.btnthem.UseVisualStyleBackColor = true;
 			this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
@@ -295,7 +296,7 @@
 			this.btnTim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnTim.Name = "btnTim";
 			this.btnTim.Size = new System.Drawing.Size(97, 23);
-			this.btnTim.TabIndex = 18;
+			this.btnTim.TabIndex = 13;
 			this.btnTim.Text = "Tim kiem";
 			this.btnTim.UseVisualStyleBackColor = true;
 			this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
@@ -306,7 +307,7 @@
 			this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnThoat.Name = "btnThoat";
 			this.btnThoat.Size = new System.Drawing.Size(75, 23);
-			this.btnThoat.TabIndex = 18;
+			this.btnThoat.TabIndex = 14;
 			this.btnThoat.Text = "Thoat";
 			this.btnThoat.UseVisualStyleBackColor = true;
 			this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -317,7 +318,7 @@
 			this.btnCapNhat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnCapNhat.Name = "btnCapNhat";
 			this.btnCapNhat.Size = new System.Drawing.Size(101, 23);
-			this.btnCapNhat.TabIndex = 18;
+			this.btnCapNhat.TabIndex = 12;
 			this.btnCapNhat.Text = "Cap Nhat";
 			this.btnCapNhat.UseVisualStyleBackColor = true;
 			this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
@@ -334,6 +335,7 @@
             this.CMMD,
             this.SDT,
             this.DiaChi,
+            this.gt,
             this.mon});
 			this.lvDSSV.FullRowSelect = true;
 			this.lvDSSV.GridLines = true;
@@ -384,6 +386,12 @@
 			// mon
 			// 
 			this.mon.Text = "Mon Dang Ky";
+			this.mon.Width = 119;
+			// 
+			// gt
+			// 
+			this.gt.Text = "Gioi Tinh";
+			this.gt.Width = 76;
 			// 
 			// frmQuanLySV
 			// 
@@ -462,6 +470,7 @@
 		private System.Windows.Forms.ColumnHeader DiaChi;
         private System.Windows.Forms.ColumnHeader Ten;
         private System.Windows.Forms.ColumnHeader mon;
-    }
+		private System.Windows.Forms.ColumnHeader gt;
+	}
 }
 

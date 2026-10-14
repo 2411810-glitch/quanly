@@ -15,6 +15,7 @@ namespace Bai1_lab3
     public string Lop { get; set; }
     public string SoCMND { get; set; }
     public string SoDT { get; set; }
+    public bool GioiTinh {  get; set; }
     public string DiaChi { get; set; }
 
     public List<string> MonDangKy { get; set; }

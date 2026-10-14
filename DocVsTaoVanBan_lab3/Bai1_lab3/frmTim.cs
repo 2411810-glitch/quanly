@@ -27,9 +27,10 @@ namespace Bai1_lab3
 
 		private void btnTim_Click( object sender, EventArgs e )
 		{
+			
 			string tim = txtTim.Text;
 			qlsv.TimKiem( tim );
-			frm.LoadListView( );
+			frm.LoadListView(qlsv);
 			this.Close();
 		}
 	}

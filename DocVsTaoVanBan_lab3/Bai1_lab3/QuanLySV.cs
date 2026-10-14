@@ -101,7 +101,10 @@ namespace Bai1_lab3
 					sv.SoCMND = s[5];
 					sv.SoDT = s[6];
 					sv.DiaChi = s[7];
-					string[] mon = s[8].Split(',');
+					sv.GioiTinh = false;
+					if(s[8]=="Nam")
+						sv.GioiTinh= true;
+					string[] mon = s[9].Split(',');
 					foreach (string c in mon)
 						sv.MonDangKy.Add(c);
 					this.ThemSV(sv);
