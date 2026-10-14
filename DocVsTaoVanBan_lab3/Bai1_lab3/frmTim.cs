@@ -29,8 +29,9 @@ namespace Bai1_lab3
 		{
 			
 			string tim = txtTim.Text;
-			qlsv.TimKiem( tim );
-			frm.LoadListView(qlsv);
+			List<Student> kq;
+			kq = qlsv.TimKiem( tim );
+			frm.LoadListView(kq);
 			this.Close();
 		}
 	}

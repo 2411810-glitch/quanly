@@ -83,21 +83,12 @@ namespace Bai1_lab3
 			foreach (Student sv in dssv.dssv)
 				ThemSV(sv);
         }
-		public void LoadListView(QuanLySV ds)
+		public void LoadListView(List<Student> ds)
 		{
 			this.lvDSSV.Items.Clear( );
-			foreach(Student sv in ds.dssv)
+			foreach(Student sv in ds)
 			{
-				ListViewItem lv = new ListViewItem( sv.MSSV );
-				lv.SubItems.Add( sv.HoVaTenLot );
-				lv.SubItems.Add( sv.Ten );
-				lv.SubItems.Add( sv.NgaySinh.ToString("dd/MM/yyyy") );
-				lv.SubItems.Add( sv.Lop );
-				lv.SubItems.Add( sv.SoCMND );
-				lv.SubItems.Add( sv.SoDT );
-				lv.SubItems.Add( sv.DiaChi );
-				lv.SubItems.Add( string.Join(", ",sv.MonDangKy) );
-				lvDSSV.Items.Add(lv);
+				ThemSV( sv );
 			}
 		}
 		

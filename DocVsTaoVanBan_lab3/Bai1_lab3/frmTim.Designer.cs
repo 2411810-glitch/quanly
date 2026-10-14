@@ -44,7 +44,7 @@
 			this.btnTim.Location = new System.Drawing.Point(353, 56);
 			this.btnTim.Name = "btnTim";
 			this.btnTim.Size = new System.Drawing.Size(95, 24);
-			this.btnTim.TabIndex = 1;
+			this.btnTim.TabIndex = 0;
 			this.btnTim.Text = "Tim Kiem";
 			this.btnTim.UseVisualStyleBackColor = true;
 			this.btnTim.Click += new System.EventHandler(this.btnTim_Click);

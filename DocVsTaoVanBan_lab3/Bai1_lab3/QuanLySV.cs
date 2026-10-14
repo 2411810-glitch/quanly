@@ -5,6 +5,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
+using System.Xml.Serialization;
+
 
 namespace Bai1_lab3
 {
@@ -111,5 +114,26 @@ namespace Bai1_lab3
 				}
 			}
 		}
+		public List<Student> DocTuFileXML(string tenFile)
+		{
+			if (!File.Exists(tenFile))
+				return new List<Student>();
+
+			XmlSerializer serializer =new XmlSerializer(typeof(List<Student>));
+
+			using (FileStream fs = new FileStream(tenFile, FileMode.Open, FileAccess.Read))
+			{
+				return (List<Student>)serializer.Deserialize(fs);
+			}
+		} 
+		/*public List<Student> DocTuFileJSON(string tenFile)
+		{
+			if (!File.Exists(tenFile))
+				return new List<Student>();
+
+			string json = File.ReadAllText(tenFile);
+
+			return JsonSerializer.Deserialize<List<Student>>(json)?? new List<Student>();
+		}*/
 	}
 }
