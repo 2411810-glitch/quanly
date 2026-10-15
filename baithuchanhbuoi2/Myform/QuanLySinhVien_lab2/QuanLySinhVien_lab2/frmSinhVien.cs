@@ -24,6 +24,7 @@ namespace QuanLySinhVien_lab2
             lvitem.SubItems.Add(sv.NgaySinh.ToShortDateString());
             lvitem.SubItems.Add(sv.DiaChi);
             lvitem.SubItems.Add(sv.Lop);
+            lvitem.SubItems.Add(sv.Hinh);
             string gt = "Nu";
             if (sv.GioiTinh)
                 gt = "Nam";
@@ -31,7 +32,7 @@ namespace QuanLySinhVien_lab2
             string cn = "";
 			foreach(string s in sv.ChuyenNganh)
 				cn += s + ", ";
-            lvitem.SubItems.Add(sv.Hinh);
+            lvitem.SubItems.Add(cn);
             this.lvSinhVien.Items.Add(lvitem);
         }
         private void LoadListView()
@@ -111,22 +112,24 @@ namespace QuanLySinhVien_lab2
 
         private void lvSinhVien_SelectedIndexChanged(object sender, EventArgs e)
         {
+            OpenFileDialog ofd = new OpenFileDialog();
             if (lvSinhVien.SelectedItems.Count == 0)
 			return;
 
-		int index = lvSinhVien.SelectedItems[0].Index;
+		    int index = lvSinhVien.SelectedItems[0].Index;
 
-		SinhVien sv = qlsv[index];
+		    SinhVien sv = qlsv[index];
 
-		mtxtMaSo.Text = sv.MaSo;
-		txtHoTen.Text = sv.HoTen;
-		dtpNgaySinh.Value = sv.NgaySinh;
-		txtDiaChi.Text = sv.DiaChi;
-		cboLop.Text = sv.Lop;
-
-		if (sv.GioiTinh)
+		    mtxtMaSo.Text = sv.MaSo;
+		    txtHoTen.Text = sv.HoTen;
+		    dtpNgaySinh.Value = sv.NgaySinh;
+		    txtDiaChi.Text = sv.DiaChi;
+		    cboLop.Text = sv.Lop;
+            txtHinh.Text = sv.Hinh;
+            pbHinh.Image = Image.FromFile(sv.Hinh);
+		    if (sv.GioiTinh)
 			rdNam.Checked = true;
-		else
+		    else
 			rdNu.Checked = true;
 
 		for (int i = 0; i < clbChuyenNganh.Items.Count; i++)

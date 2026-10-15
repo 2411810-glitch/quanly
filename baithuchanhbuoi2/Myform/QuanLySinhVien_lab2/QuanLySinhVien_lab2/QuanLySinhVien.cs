@@ -50,12 +50,15 @@ namespace QuanLySinhVien_lab2
             bool kq = false;
             cout = this.dsSinhVien.Count - 1;
             for (i = 0; i <= cout; i++)
-				if(dsSinhVien[i].MaSo==maSo)
+            {
+                if (string.Compare(dsSinhVien[i].MaSo, maSo) == 0)
                 {
+
                     this[i] = svsua;
                     kq = true;
                     break;
                 }
+            }
             return kq;
         }
         public bool Xoa(string maSo)
