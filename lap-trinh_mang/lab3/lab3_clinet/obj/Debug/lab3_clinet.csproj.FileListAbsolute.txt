@@ -1,0 +1,8 @@
+Z:\lap-trinh_mang\lab3\lab3_clinet\bin\Debug\lab3_clinet.exe.config
+Z:\lap-trinh_mang\lab3\lab3_clinet\bin\Debug\lab3_clinet.exe
+Z:\lap-trinh_mang\lab3\lab3_clinet\bin\Debug\lab3_clinet.pdb
+Z:\lap-trinh_mang\lab3\lab3_clinet\obj\Debug\lab3_clinet.csproj.AssemblyReference.cache
+Z:\lap-trinh_mang\lab3\lab3_clinet\obj\Debug\lab3_clinet.csproj.SuggestedBindingRedirects.cache
+Z:\lap-trinh_mang\lab3\lab3_clinet\obj\Debug\lab3_clinet.csproj.CoreCompileInputs.cache
+Z:\lap-trinh_mang\lab3\lab3_clinet\obj\Debug\lab3_clinet.exe
+Z:\lap-trinh_mang\lab3\lab3_clinet\obj\Debug\lab3_clinet.pdb

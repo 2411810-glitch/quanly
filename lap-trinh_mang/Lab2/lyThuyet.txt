@@ -1,0 +1,35 @@
+1.3
+1  Khi Telnet vào Server bằng port 5000, tại sao port client dùng để kết nối lại không phải là port 5000?
+Client thường sử dụng một port tạm thời (ephemeral port) do hệ điều hành tự chọn.
+Vì vậy, port nguồn của Client không cần phải trùng với port 5000 của Server.
+
+2 Như hình trên, giải thích vì sao có client dùng port giá trị 1699 ?
+Client có port là 1699, thì đó là port nguồn mà hệ điều hành đã chọn cho kết nối TCP của Client.
+Quá trình diễn ra như sau:
+Người dùng chạy lệnh Telnet đến Server tại port 5000.
+Hệ điều hành Client chọn một port nguồn còn trống, chẳng hạn 1699.
+Client tạo kết nối TCP từ IP_Client:1699 đến IP_Server:5000.
+Server nhận kết nối trên port 5000 và phản hồi về đúng kết nối của Client.
+
+3 Có phải lúc nào Client cũng mở port 1699 để kết nối với Server không?
+Không. Client không phải lúc nào cũng sử dụng port 1699.
+Mỗi lần tạo kết nối TCP mới, hệ điều hành thường tự chọn một port nguồn tạm thời còn trống, 
+tùy thuộc vào hệ điều hành, cấu hình mạng và những kết nối đang tồn tại.
+
+4 Ta có thể chạy 2 chương trình CMD để Telnet vào Server trên được không? Giải thích.
+Có. Ta có thể mở hai cửa sổ CMD và chạy Telnet từ cả hai cửa sổ đến cùng một Server tại port 5000, 
+miễn là Server cho phép nhận nhiều kết nối đồng thời.
+
+2.3
+1 Tại sao trong đoạn code viết thêm vào ta không cần phải khởi tạo độ lớn ban đầu cho buffer?
+Ta không cần khởi tạo độ lớn ban đầu cho mảng buff vì phương thức Encoding.ASCII.GetBytes(hello) 
+sẽ tự động chuyển chuỗi hello thành một mảng byte có kích thước phù hợp với số byte của chuỗi đó.
+Cụ thể, chuỗi "Hello Client" có 12 ký tự ASCII, nên buff sẽ có 12 byte. Sau khi gán, 
+ta có thể sử dụng buff.Length để lấy độ dài thực tế của mảng.
+
+2 Giải thích ý nghĩa các tham số của phương thức clientSocket.Send
+Ý nghĩa các tham số:
+clientSocket: Đối tượng Socket đại diện cho kết nối TCP giữa Client và Server.
+buffer: Mảng byte chứa dữ liệu cần gửi.
+size: Số byte tối đa cần gửi từ mảng buffer, tính từ vị trí bắt đầu mặc định là chỉ số 0.
+socketFlags: Các cờ điều khiển cách gửi dữ liệu. Thông thường sử dụng SocketFlags.None nếu không cần tùy chỉnh.

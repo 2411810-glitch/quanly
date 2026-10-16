@@ -1,0 +1,15 @@
+Z:\lap-trinh_mang\lab3\lab3\bin\Debug\net6.0\lab3.exe
+Z:\lap-trinh_mang\lab3\lab3\bin\Debug\net6.0\lab3.deps.json
+Z:\lap-trinh_mang\lab3\lab3\bin\Debug\net6.0\lab3.runtimeconfig.json
+Z:\lap-trinh_mang\lab3\lab3\bin\Debug\net6.0\lab3.dll
+Z:\lap-trinh_mang\lab3\lab3\bin\Debug\net6.0\lab3.pdb
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.csproj.AssemblyReference.cache
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfoInputs.cache
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.AssemblyInfo.cs
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.csproj.CoreCompileInputs.cache
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.dll
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\refint\lab3.dll
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.pdb
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\lab3.genruntimeconfig.cache
+Z:\lap-trinh_mang\lab3\lab3\obj\Debug\net6.0\ref\lab3.dll
