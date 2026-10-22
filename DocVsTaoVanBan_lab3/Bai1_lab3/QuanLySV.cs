@@ -67,7 +67,37 @@ namespace Bai1_lab3
 			sv.HoTen.IndexOf(tuKhoa, StringComparison.OrdinalIgnoreCase) >= 0 ||
 			sv.Lop.IndexOf(tuKhoa, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
 		}
-
+		public List<Student>TimTheoTen(string ten)
+        {
+			if (string.IsNullOrWhiteSpace(ten))
+				return new List<Student>();
+			return dssv.Where(sv => sv.HoTen.IndexOf(ten, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
+        }
+		public List<Student> TimTheoLop(string lop)
+		{
+			if (string.IsNullOrWhiteSpace(lop))
+				return new List<Student>();
+			return dssv.Where(sv => sv.Lop.IndexOf(lop, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
+		}
+		public List<Student> Tong(List<Student>a,List<Student>b)
+        {
+			List<Student> kq;
+			foreach(Student sv in a)
+            {
+				if(!b.Contains(sv))
+                {
+					b.Add(sv);
+                }
+            }
+			kq = b;
+			return kq;
+        }
+		public List<Student> TimTheoMa(string ma)
+		{
+			if (string.IsNullOrWhiteSpace(ma))
+				return new List<Student>();
+			return dssv.Where(sv => sv.MSSV.IndexOf(ma, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
+		}
 		public bool KiemTraMSSV(string mssv)
 		{
 			return Regex.IsMatch(mssv, @"^\d{7}$");

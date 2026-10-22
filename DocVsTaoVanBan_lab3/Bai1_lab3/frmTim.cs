@@ -29,10 +29,35 @@ namespace Bai1_lab3
 		{
 			
 			string tim = txtTim.Text;
-			List<Student> kq;
-			kq = qlsv.TimKiem( tim );
+			string ten = txtTen.Text;
+			string lop = cbLop.Text;
+			string tuKhoa = tim + ten + lop;
+			List<Student> kq,x,y;
+			if(string.IsNullOrWhiteSpace(tim))
+            {
+				x = qlsv.TimTheoTen(ten);
+				y = qlsv.TimTheoLop(lop);
+				kq = qlsv.Tong(x,y);
+            }
+			else if(string.IsNullOrWhiteSpace(ten))
+            {
+				x = qlsv.TimTheoMa(tim);
+				y = qlsv.TimTheoLop(lop);
+				kq = qlsv.Tong(x, y);
+            }
+			else if (string.IsNullOrWhiteSpace(lop))
+			{
+				x = qlsv.TimTheoMa(tim);
+				y = qlsv.TimTheoTen(ten);
+				kq = qlsv.Tong(x, y);
+			}
+			else
+            {
+				kq = qlsv.TimKiem(tuKhoa);
+            }
+
 			frm.LoadListView(kq);
 			this.Close();
 		}
-	}
+    }
 }

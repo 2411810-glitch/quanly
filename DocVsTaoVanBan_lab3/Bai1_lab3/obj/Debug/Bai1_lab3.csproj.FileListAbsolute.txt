@@ -21,3 +21,4 @@ Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\data.txt
 F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\bin\Debug\data.txt
 F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.frmQuanLySV.resources
 F:\quanly\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.frmTim.resources
+Z:\quanly-main\DocVsTaoVanBan_lab3\Bai1_lab3\obj\Debug\Bai1_lab3.frmTim.resources
