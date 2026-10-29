@@ -140,7 +140,12 @@ namespace KetNoiVaTruyVanDuLieu_Lab4
 
         private void tsmViewFood_Click(object sender, EventArgs e)
         {
-
+            if (txtID.Text != "")
+            {
+                FoodForm foodForm = new FoodForm();
+                foodForm.Show(this);
+                foodForm.LoadFood(Convert.ToInt32(txtID.Text));
+            }
         }
     }
 }
