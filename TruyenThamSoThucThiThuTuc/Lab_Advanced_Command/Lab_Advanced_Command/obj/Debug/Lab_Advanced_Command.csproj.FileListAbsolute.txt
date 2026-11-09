@@ -1,0 +1,10 @@
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe.config
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.pdb
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csprojAssemblyReference.cache
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodForm.resources
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.Properties.Resources.resources
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.GenerateResource.cache
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb
