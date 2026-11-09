@@ -30,11 +30,11 @@
         {
             this.dgvFood = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Unit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FoodCategoryID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Notes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenMon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DVTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaNhom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GhiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFood)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,11 +43,11 @@
             this.dgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFood.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
-            this.Name,
-            this.Unit,
-            this.FoodCategoryID,
-            this.Price,
-            this.Notes});
+            this.TenMon,
+            this.DVTinh,
+            this.MaNhom,
+            this.DonGia,
+            this.GhiChu});
             this.dgvFood.Location = new System.Drawing.Point(2, 0);
             this.dgvFood.Name = "dgvFood";
             this.dgvFood.Size = new System.Drawing.Size(646, 291);
@@ -55,33 +55,39 @@
             // 
             // ID
             // 
+            this.ID.DataPropertyName = "ID";
             this.ID.HeaderText = "Ma";
             this.ID.Name = "ID";
             // 
-            // Name
+            // TenMon
             // 
-            this.Name.HeaderText = "Ten mon";
-            this.Name.Name = "Name";
+            this.TenMon.DataPropertyName = "Name";
+            this.TenMon.HeaderText = "Ten mon";
+            this.TenMon.Name = "TenMon";
             // 
-            // Unit
+            // DVTinh
             // 
-            this.Unit.HeaderText = "DVT";
-            this.Unit.Name = "Unit";
+            this.DVTinh.DataPropertyName = "Unit";
+            this.DVTinh.HeaderText = "DVT";
+            this.DVTinh.Name = "DVTinh";
             // 
-            // FoodCategoryID
+            // MaNhom
             // 
-            this.FoodCategoryID.HeaderText = "Ma nhom";
-            this.FoodCategoryID.Name = "FoodCategoryID";
+            this.MaNhom.DataPropertyName = "FoodCategoryID";
+            this.MaNhom.HeaderText = "Ma nhom";
+            this.MaNhom.Name = "MaNhom";
             // 
-            // Price
+            // DonGia
             // 
-            this.Price.HeaderText = "Don Gia";
-            this.Price.Name = "Price";
+            this.DonGia.DataPropertyName = "Price";
+            this.DonGia.HeaderText = "Don Gia";
+            this.DonGia.Name = "DonGia";
             // 
-            // Notes
+            // GhiChu
             // 
-            this.Notes.HeaderText = "Ghi chu";
-            this.Notes.Name = "Notes";
+            this.GhiChu.DataPropertyName = "Notes";
+            this.GhiChu.HeaderText = "Ghi chu";
+            this.GhiChu.Name = "GhiChu";
             // 
             // FoodForm
             // 
@@ -100,10 +106,10 @@
 
         private System.Windows.Forms.DataGridView dgvFood;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Unit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FoodCategoryID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Notes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenMon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DVTinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaNhom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DonGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GhiChu;
     }
 }

@@ -48,8 +48,9 @@ namespace KetNoiVaTruyVanDuLieu_Lab4
             string connectionString = @"server= PC512\SQLEXPRESS ;database = RestaurantManagement;Integrated Security = true";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             SqlCommand sqlCommand = sqlConnection.CreateCommand();
+            string loai = txtType.Text == "Thuc uong" ? "0" : "1";
             sqlCommand.CommandText = "INSERT INTO Category(Name,[Type])" +
-                "VALUES (N'" + txtName.Text + "'," + txtType.Text + ")";
+                "VALUES (N'" + txtName.Text + "'," + loai + ")";
             sqlConnection.Open();
             int numOfRowEffectec = sqlCommand.ExecuteNonQuery();
             sqlConnection.Close();

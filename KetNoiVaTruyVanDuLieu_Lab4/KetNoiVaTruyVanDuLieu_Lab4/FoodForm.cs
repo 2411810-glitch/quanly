@@ -22,7 +22,7 @@ namespace KetNoiVaTruyVanDuLieu_Lab4
             string connectionString = @"server= PC512\SQLEXPRESS;database= RestaurantManagement;Integrated Security=true";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             SqlCommand sqlCommand = sqlConnection.CreateCommand();
-            sqlCommand.CommandText = "SELECT Name From Category WHERE ID ="+ID;
+            sqlCommand.CommandText = "SELECT Name From Category WHERE ID = "+ID;
             sqlConnection.Open();
             string catName = sqlCommand.ExecuteScalar().ToString();
             this.Text = "Danh sach cac mon an thuoc nhom" + catName;
