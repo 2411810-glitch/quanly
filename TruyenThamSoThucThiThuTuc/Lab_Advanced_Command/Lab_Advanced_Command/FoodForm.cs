@@ -93,12 +93,37 @@ namespace Lab_Advanced_Command
         }
         private void tsmAddFood_Click(object sender, EventArgs e)
         {
-
+            FoodInfoForm ff = new FoodInfoForm();
+            ff.FormClosed += new FormClosedEventHandler(foodForm_FormClosed);
+            ff.Show(this);
         }
-
+        void foodForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            int index = cbbChon.SelectedIndex;
+            cbbChon.SelectedIndex = -1;
+            cbbChon.SelectedIndex = index;
+        }
         private void tsmUpdateFood_Click(object sender, EventArgs e)
         {
+            if(dgvFoodList.SelectedRows.Count >0)
+            {
+                DataGridViewRow selectedRow = dgvFoodList.SelectedRows[0];
+                DataRowView rowView = selectedRow.DataBoundItem as DataRowView;
+                FoodInfoForm ff = new FoodInfoForm();
+                ff.FormClosed += new FormClosedEventHandler(foodForm_FormClosed);
+                ff.Show(this);
+                ff.DisPlayFoodInfo(rowView);
+            }
+        }
 
+        private void txtSearchByName_TextChanged(object sender, EventArgs e)
+        {
+            if (foodTable == null) return;
+            string filterExpression = "Name like '%" + txtSearchByName.Text + "%'";
+            string sortExpression = "Price DESC";
+            DataViewRowState rowStateFilter = DataViewRowState.OriginalRows;
+            DataView foodView = new DataView(foodTable, filterExpression, sortExpression, rowStateFilter);
+            dgvFoodList.DataSource = foodView;
         }
     }
 }

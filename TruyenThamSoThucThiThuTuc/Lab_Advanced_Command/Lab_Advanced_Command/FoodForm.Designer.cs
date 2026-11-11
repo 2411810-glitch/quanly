@@ -32,15 +32,17 @@
             this.cbbChon = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvFoodList = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblQuantity = new System.Windows.Forms.Label();
-            this.lblCatName = new System.Windows.Forms.Label();
             this.ctmFoodList = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmCalculateQuantity = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmSeperator = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmAddFood = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmUpdateFood = new System.Windows.Forms.ToolStripMenuItem();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblQuantity = new System.Windows.Forms.Label();
+            this.lblCatName = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtSearchByName = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.ctmFoodList.SuspendLayout();
             this.SuspendLayout();
@@ -73,42 +75,6 @@
             this.dgvFoodList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvFoodList.Size = new System.Drawing.Size(634, 355);
             this.dgvFoodList.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 419);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Co tat ca";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(139, 419);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Mon an thuoc nhom";
-            // 
-            // lblQuantity
-            // 
-            this.lblQuantity.AutoSize = true;
-            this.lblQuantity.Location = new System.Drawing.Point(96, 419);
-            this.lblQuantity.Name = "lblQuantity";
-            this.lblQuantity.Size = new System.Drawing.Size(16, 13);
-            this.lblQuantity.TabIndex = 3;
-            this.lblQuantity.Text = "...";
-            // 
-            // lblCatName
-            // 
-            this.lblCatName.AutoSize = true;
-            this.lblCatName.Location = new System.Drawing.Point(256, 419);
-            this.lblCatName.Name = "lblCatName";
-            this.lblCatName.Size = new System.Drawing.Size(16, 13);
-            this.lblCatName.TabIndex = 3;
-            this.lblCatName.Text = "...";
             // 
             // ctmFoodList
             // 
@@ -148,11 +114,66 @@
             this.tsmUpdateFood.Text = "Cap nhat mon an";
             this.tsmUpdateFood.Click += new System.EventHandler(this.tsmUpdateFood_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(31, 419);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(50, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Co tat ca";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(139, 419);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Mon an thuoc nhom";
+            // 
+            // lblQuantity
+            // 
+            this.lblQuantity.AutoSize = true;
+            this.lblQuantity.Location = new System.Drawing.Point(96, 419);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(16, 13);
+            this.lblQuantity.TabIndex = 3;
+            this.lblQuantity.Text = "...";
+            // 
+            // lblCatName
+            // 
+            this.lblCatName.AutoSize = true;
+            this.lblCatName.Location = new System.Drawing.Point(256, 419);
+            this.lblCatName.Name = "lblCatName";
+            this.lblCatName.Size = new System.Drawing.Size(16, 13);
+            this.lblCatName.TabIndex = 3;
+            this.lblCatName.Text = "...";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(276, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Tim theo ten";
+            // 
+            // txtSearchByName
+            // 
+            this.txtSearchByName.Location = new System.Drawing.Point(348, 12);
+            this.txtSearchByName.Name = "txtSearchByName";
+            this.txtSearchByName.Size = new System.Drawing.Size(243, 20);
+            this.txtSearchByName.TabIndex = 5;
+            this.txtSearchByName.TextChanged += new System.EventHandler(this.txtSearchByName_TextChanged);
+            // 
             // FoodForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 450);
+            this.Controls.Add(this.txtSearchByName);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lblCatName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblQuantity);
@@ -184,6 +205,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmSeperator;
         private System.Windows.Forms.ToolStripMenuItem tsmAddFood;
         private System.Windows.Forms.ToolStripMenuItem tsmUpdateFood;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtSearchByName;
     }
 }
 

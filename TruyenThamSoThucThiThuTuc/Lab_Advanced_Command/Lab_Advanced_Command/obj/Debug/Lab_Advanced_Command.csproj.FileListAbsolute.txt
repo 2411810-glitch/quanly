@@ -8,3 +8,4 @@ Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Comma
 Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
 Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
 Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb
+Z:\quanly-main\TruyenThamSoThucThiThuTuc\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodInfoForm.resources
